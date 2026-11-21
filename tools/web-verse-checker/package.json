@@ -1,0 +1,18 @@
+{
+  "name": "web-verse-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone World English Bible verse checker. Exact matching, punctuation included.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": {
+    "web-verse-checker": "./check.mjs"
+  },
+  "scripts": {
+    "check": "node check.mjs",
+    "test": "node --test test/check.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
